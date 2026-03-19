@@ -22,24 +22,30 @@ const User = mongoose.model("User", userSchema);
 async function runQueryExamples() {
     try {
         // create a new document
+        // !创建 数据
         // const newUser = await User.create({
         //     name: "李瑶",
         //     email: "iloveyou@gmail.com",
+        //     age: "19",
+        //     isActive: true,
+        //     tags: ["美女", "香香"],
+        // })
+        // const newUser = await User({
+        //     name: "朱昕龙",
+        //     email: "zhangmen099@gmail.com",
         //     age: "18",
         //     isActive: true,
-        //     tags: ["美女"],
-        // })
-        const newUser = await User({
-            name: "朱昕龙",
-            email: "zhangmen099@gmail.com",
-            age: "18",
-            isActive: true,
-            tags: ["帅哥"],
-        });
-        await newUser.save();
-        console.log("Created new user", newUser);
-        const allUsers = await User.find({});
-        console.log('allUsers', allUsers);
+        //     tags: ["帅哥"],
+        // });
+        // !创建 数据可以在创建之前做很多事情比如修改
+        // await newUser.save();
+        // console.log("Created new user", newUser);
+        // !查询 传递参数查询对应的数据 传递{}查询全部
+        // const allUsers = await User.find({ name: '李瑶' });
+        // console.log('allUsers', allUsers);
+        // !查询 第一个结果
+        const Users = await User.findOne({ name: '李瑶' });
+        console.log('Users', Users);
     } catch (e) {
         console.log("Error ->", e)
     } finally {
