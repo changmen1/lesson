@@ -1,0 +1,2 @@
+Hello from node js
+我是第二行
