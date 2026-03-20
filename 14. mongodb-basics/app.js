@@ -44,8 +44,24 @@ async function runQueryExamples() {
         // const allUsers = await User.find({ name: '李瑶' });
         // console.log('allUsers', allUsers);
         // !查询 第一个结果
-        const Users = await User.findOne({ name: '李瑶' });
-        console.log('Users', Users);
+        // const Users = await User.findOne({ name: '李瑶' });
+        // console.log('Users', Users);
+
+        // const countDocuments = await User.countDocuments({ isActive: true });
+        // console.log(countDocuments);
+
+        // const deletedUser = await User.findByIdAndDelete('69bbe58fc5f0309347c8a96c');
+        // console.log("deleted user ->", deletedUser);
+
+        // const updateUser = await User.findByIdAndUpdate(
+        //     '69bbe5bf2a7fc3bda4919b42',
+        //     {
+        //         $set: { age: 100 },
+        //         $push: { tags: "updated" },
+        //     },
+        //     { returnDocument: 'after' }
+        // );
+        // console.log("updated user", updateUser);
     } catch (e) {
         console.log("Error ->", e)
     } finally {

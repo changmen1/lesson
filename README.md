@@ -17,8 +17,8 @@
 - [√] 01:39:40 Express.js
 - [√] 02:13:14 EJS 模板引擎
 - [√] 02:28:33 REST API 开发
-- [ ] 02:59:05 MongoDB 和 Mongoose 基础
-- [ ] 03:40:25 书店 API 开发
+- [√] 02:59:05 MongoDB 和 Mongoose 基础
+- [√] 03:40:25 书店 API 开发
 - [ ] 04:32:35 身份验证和授权
 - [ ] 06:01:12 文件上传
 - [ ] 06:47:30 修改密码、删除图片、排序和分页
@@ -98,3 +98,14 @@
 - [ ] 05:49:20 事件（Events）与监听器（Listeners）
 - [ ] 06:09:00 拦截器（Interceptors）
 - [ ] 06:21:51 中间件（Middleware）
+
+<!-- 
+• 熟悉 Node.js 运行机制（事件循环、Streams、Buffer）并具备性能优化意识 
+• 熟练使用 NestJS 构建企业级后端应用，具备模块化与分层设计能力  
+• 掌握多数据库技术（MongoDB / PostgreSQL），并能使用 ORM 进行高效开发  
+• 实现完整认证体系（JWT、RBAC、权限控制）  
+• 熟悉 Redis 缓存、接口限流、数据分页等高并发场景优化方案  
+• 掌握 Docker、Docker Compose 部署及 GitHub Actions CI/CD 流程  
+• 了解微服务架构、消息通信及系统拆分设计  
+• 具备全栈开发能力（前端 + 后端 API + 部署） 
+-->
