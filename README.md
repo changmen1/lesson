@@ -107,5 +107,13 @@
 • 熟悉 Redis 缓存、接口限流、数据分页等高并发场景优化方案  
 • 掌握 Docker、Docker Compose 部署及 GitHub Actions CI/CD 流程  
 • 了解微服务架构、消息通信及系统拆分设计  
-• 具备全栈开发能力（前端 + 后端 API + 部署） 
+• 具备全栈开发能力（前端 + 后端 API + 部署）
+
+前端使用 next || react
+后端使用 nest || Hono
+数据库 PostgreSQL || mongodb
+docker || vercel
+网站 前台next 后台react 后端nest 数据库PostgreSQL
+桌面端 前端electron 后端nest 数据库mongodb
+移动端 前端reactnative 后端nest 数据库PostgreSQL
 -->
