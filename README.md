@@ -131,5 +131,7 @@ TODO 每天看五个小时 才可以在下一周开始接单
 9.系统配置两个初始运营地点：珠海、中山，支持后续扩展更多中国境内运营地点
 in
 图片存储使用cloudinary
+后端部署使用Render || vercel 建议使用Render
+openssl rand -hex 64
 https://res.cloudinary.com/dffsqesb0/image/upload/f_auto,q_auto/zxl_l4ucfq
 -->
