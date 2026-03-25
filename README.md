@@ -26,7 +26,7 @@
 - [√] 08:15:38 Node.js 与 Socket
 - [√] 08:53:14 部署策略
 - [√] 09:16:43 Node.js 与 GraphQL
-- [ ] 10:09:50 Node.js 与 TypeScript
+- [√] 10:09:50 Node.js 与 TypeScript
 
 ---
 
